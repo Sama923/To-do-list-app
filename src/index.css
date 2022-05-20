@@ -1,13 +1,70 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background:#05173d ;
+  color:#cfb075 ;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.container{
+  width: 50%;
+  margin: 10% auto;
+}
+
+.List{
+  background:#cfb075 ;
+  color: aliceblue;
+}
+
+.List p{
+  margin: 0;
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.List span{
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+  border: 0.3px solid #ccc;
+}
+
+.List span.title{
+  background:#35260a ;
+  color: aliceblue;
+}
+
+.List span.icon{
+color: white;
+cursor: pointer;
+}
+
+.List span.name,form input[type=text]{
+width: 60%;
+}
+
+.List span.age,form input[type=number]{
+  width: 30%;
+  }
+  
+  .List span.action,form input[type=submit]{
+    width: 10%;
+    }
+
+form input{
+  padding: 10px;
+  background: whitesmoke;
+  border: transparent;
+  border: 0.3px solid #ccc;
 }
